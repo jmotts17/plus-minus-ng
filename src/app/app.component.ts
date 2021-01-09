@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'plus-minus-ng';
+  value = 0;
+
+  minus() {
+    this.value--;
+  }
+
+  plus() {
+    this.value++;
+  }
+
 }
